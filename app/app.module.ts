@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { KarnaughMapSolverComponent } from './components/projects/karnaugh-map-solver/karnaugh-map-solver.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -16,7 +17,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     ProfileComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    KarnaughMapSolverComponent
   ],
   bootstrap:    [ AppComponent ]
 })
