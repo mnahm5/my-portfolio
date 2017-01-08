@@ -1,3 +1,10 @@
 .navbar {
   margin-bottom: 0px;
 }
+
+.profilePic {
+  height:200px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
