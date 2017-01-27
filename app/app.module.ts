@@ -6,8 +6,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { KarnaughMapSolverComponent } from './components/projects/karnaugh-map-solver/karnaugh-map-solver.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -17,8 +15,6 @@ import { KarnaughMapSolverComponent } from './components/projects/karnaugh-map-s
     HomeComponent,
     ProfileComponent,
     ProjectsComponent,
-    ContactComponent,
-    KarnaughMapSolverComponent
   ],
   bootstrap:    [ AppComponent ]
 })
