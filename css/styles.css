@@ -6,7 +6,7 @@
   margin-bottom: 0px;
 }
 
-.profilePic {
+/*.profilePic {
   height:200px;
   display:block;
   margin-right:auto;
@@ -29,13 +29,6 @@
 #projects {
   background: url("https://images.unsplash.com/photo-1456947700819-d91abdf38117?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2ad306228c60dee21f9cd559b195ce2a");
   background-size: cover;
-  padding-bottom: 5%;
-}
-
-#contact {
-  background: url("https://images.unsplash.com/photo-1429305336325-b84ace7eba3b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=59433667f7ac795ffc6b674964565384");
-  background-size: cover;
-  padding-top: 5%;
   padding-bottom: 5%;
 }
 
