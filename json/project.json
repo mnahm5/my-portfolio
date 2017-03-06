@@ -1,5 +1,14 @@
 [
   {
-    "msg": "Hello World"
+    "category": "Front-end Projects",
+    "projects": [
+      {
+        "projectName": "Karnaugh Map Solver",
+        "description": "This program uses the Quine-McCluskey Method to solve Karnaugh Maps (a common math problem for electrical engineers). The project is hosted on Amazon S3 as a static website where you can try the program yourself. You can also view the source code on github",
+        "imageLink": "https://s3-ap-southeast-2.amazonaws.com/images.portfolio.mdnadimahmed/karnaughMapSolver.png",
+        "githubLink": "https://github.com/mnahm5/Karnaugh-Map-Solver",
+        "websiteLink": "http://www.karnaughmapsolver.com.s3-website-ap-southeast-2.amazonaws.com/"
+      }
+    ]
   }
 ]

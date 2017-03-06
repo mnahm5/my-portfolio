@@ -7,12 +7,12 @@ import { ProjectService } from '../../services/projects.service';
   templateUrl: `projects.component.html`,
 })
 export class ProjectsComponent  {
-  projects: Array<Object>;
+  data: Array<Object>;
 
   constructor(private _projectService: ProjectService) {
     this._projectService.getProjects().subscribe(res => {
       console.log(res);
-      this.projects = res;
+      this.data = res;
     });
   }
 }

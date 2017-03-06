@@ -1,8 +1,20 @@
 <div id="projects">
-  <div class="container">
-    <div class="row">
-      <div *ngFor="let project of projects">
-        {{ project.msg }}
+  <div class="container" *ngFor="let projectType of data">
+    <h3>{{ projectType.category }}</h3>
+    <div class="row" *ngFor="let project of projectType.projects">
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            {{ project.projectName }}
+          </div>
+          <div class="panel-body">
+            <img class="img-thumbnail" src="{{ project.imageLink }}">
+            <br>
+            <p>{{ project.description }}</p>
+            <a *ngIf="project.githubLink" href="{{ project.githubLink }}" class="btn btn-inverse" target="_blank">Github Link</a>
+            <a *ngIf="project.websiteLink" href="{{ project.websiteLink  }}" class="btn btn-inverse" target="_blank">Website Link</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
