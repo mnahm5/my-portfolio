@@ -1,6 +1,6 @@
 [
   {
-    "category": "Front-end Projects",
+    "category": "Front-end Websites",
     "projects": [
       {
         "projectName": "Karnaugh Map Solver",
@@ -8,6 +8,32 @@
         "imageLink": "https://s3-ap-southeast-2.amazonaws.com/images.portfolio.mdnadimahmed/karnaughMapSolver.png",
         "githubLink": "https://github.com/mnahm5/Karnaugh-Map-Solver",
         "websiteLink": "http://www.karnaughmapsolver.com.s3-website-ap-southeast-2.amazonaws.com/"
+      },
+      {
+        "projectName": "Movie Hub",
+        "description": "Movie Hub is built using Angular 2 and uses themoviedb api to get the data for all the movie. Users can view popular movies and also if they are in theatres. Users can search for movies and also get links to the movie's main website. This website is also hosted using Amazon S3",
+        "imageLink": "https://s3-ap-southeast-2.amazonaws.com/images.portfolio.mdnadimahmed/Movie+Hub.png",
+        "githubLink": "https://github.com/mnahm5/movieHub",
+        "websiteLink": "http://movie-hub-angular.s3-website-ap-southeast-2.amazonaws.com/"
+      }
+    ]
+  },
+
+  {
+    "category": "Full Stack Websites",
+    "projects": [
+      {
+        "projectName": "Django-eStore",
+        "description": "",
+        "imageLink": "",
+        "githubLink": ""
+      },
+      {
+        "projectName": "Laravel Twitter Clone",
+        "description": "A twitter clone built completely on the laravel 5.3 framework. Laravel is built on php and is used widely in the industry. The website has been hosted on heroku because I am poor. The source code is also available on github",
+        "imageLink": "https://s3-ap-southeast-2.amazonaws.com/images.portfolio.mdnadimahmed/twitter+clone.png",
+        "githubLink": "https://github.com/mnahm5/laravel-twitter-clone",
+        "websiteLink": "http://laravel-twitter-clone.herokuapp.com/"
       }
     ]
   }

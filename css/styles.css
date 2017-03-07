@@ -6,6 +6,10 @@
   margin-bottom: 0px;
 }
 
+.description {
+  padding-top: 10px;
+}
+
 /*.profilePic {
   height:200px;
   display:block;
